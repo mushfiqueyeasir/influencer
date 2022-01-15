@@ -46,6 +46,15 @@ body{
 
 /* navigations bar styles */
 /* header styles */
+nav{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1200px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;     
+}
  nav h1{
      font-size: 24px;
      font-weight: 700;
@@ -68,15 +77,7 @@ body{
      color: #3A3A3A;
      
  }
- nav{
-     margin: 0 auto;
-     margin-top: 40px;
-     width: 1200px;
-     margin-bottom: 50px;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;     
- } 
+ 
 
 /* banner section style */
 .main-banner{

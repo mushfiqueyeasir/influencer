@@ -17,7 +17,7 @@
             margin-bottom: 25px;
         }
         nav h1{
-            font-size: 16px;
+            font-size: 22px;
             font-weight: 700;
             color: #3A3A3A;    
         }
@@ -60,6 +60,7 @@
            height: 65px;
            margin: 0;
            margin-bottom: 8px;
+           
        }
        .banner-photo{
            width: 257px;
@@ -143,6 +144,9 @@
             .service{
                 margin-top: 10px;
             }
+            .copyright{
+
+            }
     
     }
     
@@ -162,7 +166,7 @@
                 margin-bottom: 25px;
             }
             nav h1{
-                font-size: 24px;
+                font-size: 28px;
                 font-weight: 700;
                 color: #3A3A3A;    
             }
