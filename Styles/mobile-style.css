@@ -1,0 +1,291 @@
+/* ------------------
+    media queries
+ -------------------- */
+
+ /* ------------------------------------------------------
+        media queries for  Mobile devices.
+    ------------------ -----------------------------------*/
+
+    @media only screen and (max-width:688px) {
+
+        /* navigation bar styles */
+        nav{
+            display: grid;
+            justify-content: center;
+            width: unset;
+            margin-top: 35px;
+            margin-bottom: 25px;
+        }
+        nav h1{
+            font-size: 16px;
+            font-weight: 700;
+            color: #3A3A3A;    
+        }
+        nav > span {
+            display: none;
+        }
+    
+        /* banner section style */
+      .main-banner{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-items: center;
+        width: unset;
+        }
+        .banner-heading{
+           margin: 0;
+           width: unset;
+           height: unset;
+           display: grid;
+           justify-items: center;      
+       }
+       .banner-heading h1{   
+           color: #3A3A3A; 
+           font-weight: 700;
+           font-size: 28px;
+           line-height: 42px;
+           text-align: center;
+           width: 504px;
+           height: 79px;
+           margin-top: 11px;
+           margin-bottom: 14px;
+       }
+       .banner-heading p{
+           color: #3A3A3A;
+           font-weight: 500;
+           font-size: 14px;
+           line-height: 21px;
+           text-align: center;
+           width: 321px;
+           height: 65px;
+           margin: 0;
+       }
+       .banner-photo{
+           width: 257px;
+           height: 257px;
+           padding: 0;
+           background-size: 257px 257px;
+           }
+       .banner-photo img{
+           width: 202px;
+           height: 190px;
+           margin: 51px 33px 16px 22px;
+       }
+       .banner-heading button{
+           align-items: center;
+           justify-content: center;
+           align-content: center;
+           margin: 20px;
+       }
+       /* brand styles */
+       .brands{
+        margin: 50.5px 42px 50.04px 42.79px;
+        width: unset;
+        height: unset;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 0px;      
+        justify-content: center;
+        }
+        .brand img{
+            width: 100%;
+    
+        }
+    /* product collections styls */
+            .product-list{
+                margin: 0;
+                grid-template-columns: repeat(1, 0fr);
+                grid-row-gap: 15px;
+                justify-content: center;
+                align-items: center;
+            }
+            .product-container-title{
+                margin-top: 0px;
+                font-size: 24px;
+                font-weight: 600;
+                color: #3A3A3A;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            /* flash sales styles */
+                .flash-sale{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-items: center;
+                    gap: 20px;
+                }
+                .flash-sale img {
+                    width: 315px;
+                    height: 225px;
+                    border-radius: 15px;
+                }
+                .box>.title {
+                    width: 315px;
+                    height: 225px;                   
+                    border-radius: 10px;
+                }
+                .box h2 {
+                    font-size: 24px;                  
+                }
+                
+                .box a {                    
+                    font-size: 16px;                    
+                } 
+            /* all services style */
+            .all-services{
+                display: block;
+                column-gap: 0px;
+                row-gap: 100px;
+                margin: 30px 10px 0px 30px;
+            }
+            .service{
+                margin-top: 10px;
+            }
+    
+    }
+    
+     /* ---------------------------------------------------
+            media queries for Tablets.
+        ------------------ -----------------------------------*/
+    
+    
+        @media only screen and (min-width:689px) and (max-width:992px) {
+    
+            /* navigation bar styles */
+            nav{
+                display: grid;
+                justify-content: center;
+                width: unset;
+                margin-top: 35px;
+                margin-bottom: 25px;
+            }
+            nav h1{
+                font-size: 24px;
+                font-weight: 700;
+                color: #3A3A3A;    
+            }
+            nav > span {
+                display: none;
+            }
+        
+            /* banner section style */
+          .main-banner{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-items: center;
+            width: unset;
+            }
+            .banner-heading{
+               margin: 0;
+               width: unset;
+               height: unset;
+               display: grid;
+               justify-items: center;      
+           }
+           .banner-heading h1{   
+               color: #3A3A3A; 
+               font-weight: 700;
+               font-size: 38px;
+               line-height: 52px;
+               text-align: center;
+               width: 504px;
+               height: unset;
+               margin-top: 11px;
+               margin-bottom: 14px;
+           }
+           .banner-heading p{
+               color: #3A3A3A;
+               font-weight: 500;
+               font-size: 16px;
+               line-height: 21px;
+               text-align: center;
+               width: 421px;
+               height: 65px;
+               margin: 0;
+           }
+           .banner-photo{
+               width: 357px;
+               height: 357px;
+               padding: 0;
+               background-size: 357px 357px;
+               }
+           .banner-photo img{
+               width: 302px;
+               height: 290px;
+               margin: 51px 33px 16px 22px;
+           }
+           .banner-heading button{
+               align-items: center;
+               justify-content: center;
+               align-content: center;
+               margin: 20px;
+           }
+           /* brand styles */
+           .brands{
+            margin: 50.5px 42px 50.04px 42.79px;
+            width: unset;
+            height: unset;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 0px;      
+            justify-content: center;
+            }
+            .brand img{
+                width: 100%;
+        
+            }
+        /* product collections styls */
+        
+        .product-list{
+            margin: 0;
+            grid-template-columns: repeat(2, 0fr);
+            grid-column-gap:10px ;
+            grid-row-gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .product-thumbnil{    
+            width: 329px;
+            height: 476px;
+            background-color: #FFFFFF;    
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+            justify-content: center;
+        }
+        /* flash sales styles */
+        .flash-sale{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-items: center;
+        }
+        .flash-sale img {
+            width: 315px;
+            height: 225px;
+            border-radius: 15px;
+        }
+        .box>.title {
+            width: 315px;
+            height: 225px;                   
+            border-radius: 10px;
+        }
+        .box h2 {
+            font-size: 24px;                  
+        }
+        
+        .box a {                    
+            font-size: 16px;                    
+        } 
+
+        /* all services style */
+        .all-services{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin: 30px 10px 0px 30px;
+        }
+        .service{
+            margin-top: 10px;
+        }
+     }
