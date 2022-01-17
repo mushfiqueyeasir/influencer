@@ -296,10 +296,12 @@
         .all-services{
             display: grid;
             grid-template-columns: repeat(2,1fr);
+            justify-content: center;
             margin: 30px 10px 0px 30px;
         }
         .service{
             margin-top: 10px;
+            width: unset;
         }
      }
       /* ---------------------------------------------------
